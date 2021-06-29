@@ -1,0 +1,11 @@
+print("Programme 2")
+print("Entrées")
+print("Entrer la temperature T")
+T=int(input())
+print("Affichage")
+if T<=0:
+print("L'état physique de l'eau est solide")
+elif T>0 and T<100
+print("l'état physique de l'eau est liquide")
+else :
+print("l'état physique de l'eau est gazeux")
