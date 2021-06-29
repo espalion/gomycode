@@ -1,0 +1,11 @@
+print("Programme 1") 
+print("-----Entrées-----")
+print("Entrer le nombre x")
+x=int(input())
+print("-----Affichage-----")
+if x>0:
+print("Le nombre est positif")
+elif x<0:
+print("Le nombre est négatif")
+else:
+print("Le nombre est nul")
