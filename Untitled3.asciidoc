@@ -1,0 +1,18 @@
++*In[1]:*+
+[source, ipython3]
+----
+print("Bienvenue dans le monde python ! Commençons à coder")
+----
+
+
++*Out[1]:*+
+----
+Bienvenue dans le monde python ! Commençons à coder
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
