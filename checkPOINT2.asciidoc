@@ -1,0 +1,122 @@
++*In[13]:*+
+[source, ipython3]
+----
+print("Entrer votre prenom et votre nom")
+nom et prenom=int(input())
+----
+
+
++*Out[13]:*+
+----
+
+      File "<ipython-input-13-93f26e98754e>", line 2
+        nom et prenom=int(input())
+             ^
+    SyntaxError: invalid syntax
+
+
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+print("Entrer un nombre entier n")
+n=int(input())
+
+----
+
+
++*Out[12]:*+
+----
+Entrer un nombre entier n
+5
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    <ipython-input-12-c99417d9ec0e> in <module>
+          1 print("Entrer un nombre entier n")
+          2 n=int(input())
+    ----> 3 n+nn+nnn
+    
+
+    NameError: name 'nn' is not defined
+
+----
+
+
++*In[18]:*+
+[source, ipython3]
+----
+
+n = int(input("Entrez un nombre: "))
+if (n % 2) == 0:
+   print(n," est Paire")
+else:
+   print(n," est Impaire")
+----
+
+
++*Out[18]:*+
+----
+Entrez un nombre: 456
+456  est Paire
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[14]:*+
+[source, ipython3]
+----
+mot=input("Donner un mot: ")
+nouv_mot=mot[0::2]
+print(nouv_mot)
+----
+
+
++*Out[14]:*+
+----
+Donner un mot: Lamia
+Lma
+----
+
+
++*In[15]:*+
+[source, ipython3]
+----
+prix=int(input())
+if prix>500 :
+print("il y aura une remise de 50%")
+elif prix>20 or prix=200 or prix<500:
+print("il y aura une remise de 30%")
+if prix>200:
+print("il y aura une remise de 10%")
+----
+
+
++*Out[15]:*+
+----
+
+      File "<ipython-input-15-0acba699e545>", line 3
+        print("il y aura une remise de 50%")
+            ^
+    IndentationError: expected an indented block
+
+
+----
