@@ -1,0 +1,38 @@
++*In[ ]:*+
+[source, ipython3]
+----
+x=int(input("Entrer un nombre"))
+if x>0 :
+ print("Le nombre est positif")
+elif x<0 :
+ print("Le nombre est négatif")
+else:
+ print("Le nombre est nul")
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+T=int(input("Entrer la température"))
+if T<=0 :
+ print("L'état physique de l'eau est solide")
+elif T>0 and T<100:
+ print("l'état physique de l'eau est liquide")
+else :
+ print("l'état physique de l'eau est gazeux")
+----
+
+
++*Out[2]:*+
+----
+Entrer la température31
+l'état physique de l'eau est liquide
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
