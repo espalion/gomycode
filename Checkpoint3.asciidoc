@@ -1,0 +1,83 @@
++*In[20]:*+
+[source, ipython3]
+----
+>>> from functools import reduce
+>>> reduce(lambda x, y: x*y, [2,3,6])
+----
+
+
++*Out[20]:*+
+----36----
+
+
++*In[35]:*+
+[source, ipython3]
+----
+>>> import random
+>>> l = [i for i in range(10)]
+>>> random.shuffle(l)
+>>> l.sort()
+>>> l
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+>>> l.sort(reverse=False)
+>>> l
+----
+
+
++*Out[35]:*+
+----[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]----
+
+
++*In[42]:*+
+[source, ipython3]
+----
+from collections import Counter
+#counter utiliser pour additioner les valeurs dans un dictionnaire(from Google)
+d1 = {'a': 100, 'b': 200, 'c':300}
+d2 = {'a': 300, 'b': 200, 'd':400}
+d= Counter(d1)+Counter(d2)
+print(d)
+
+----
+
+
++*Out[42]:*+
+----
+Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})
+----
+
+
++*In[39]:*+
+[source, ipython3]
+----
+le_carré={}
+n=int(input('enter un nombre'))
+#users will input a number
+for i in range(1,n+1):
+#i in range
+    le_carré[i]=i*i
+#create the dictionnary
+print (le_carré)
+#print the dictionary
+----
+
+
++*Out[39]:*+
+----
+enter un nombre8
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+----
+
+
++*In[44]:*+
+[source, ipython3]
+----
+s= [('item1', '12.20'), ('item2', '15.10'), ('item3', '24.5')]
+print (s[-1]+s[1]+s[0])
+----
+
+
++*Out[44]:*+
+----
+('item3', '24.5', 'item2', '15.10', 'item1', '12.20')
+----
