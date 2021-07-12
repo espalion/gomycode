@@ -1,0 +1,113 @@
++*In[2]:*+
+[source, ipython3]
+----
+# Demander à l'utilisateur de taper 3 nombres  a, b, c
+a = int(input("Taper une valeur pour a : "))
+b = int(input("Taper une valeur pour b : "))
+c = int(input("Taper une valeur pour c : "))
+
+# définir et initialiser le maximum à zero
+max = 0
+if(a > b):
+    max = a
+else:
+    max = b
+if(max < c):
+    max = c
+else:
+    max = max
+print("Le maximum des trois nombre est : ", max)
+----
+
+
++*Out[2]:*+
+----
+Taper une valeur pour a : 56
+Taper une valeur pour b : 34
+Taper une valeur pour c : 21
+Le maximum des trois nombre est :  56
+----
+
+
++*In[1]:*+
+[source, ipython3]
+----
+n1=int(input("Entrer un nombre :"))
+n2=int(input("Entrer un autre nombre :"))
+resultat=(n1+n2)
+result=(n1-n2)
+print(resultat,result)
+----
+
+
++*Out[1]:*+
+----
+Entrer un nombre :40
+Entrer un autre nombre :10
+50 30
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+s=[]
+n = int(input("Enter number of elements : "))
+for i in range(0,n):
+    x=int(input("donner un "))
+    s.append(x)
+print("liste :",s)
+
+def mult(t):
+    x=1
+    for i in t :
+        x=x*i
+    return x
+
+def smm(t):
+    y=0
+    for i in t :
+        y=y+i
+    return y
+
+def lstp(t):
+    l=[]
+    for i in range (len(t)):
+        if i%2==0 :
+            l.append (t[i])
+    return l
+
+def lstimp(t):
+    r=[]
+    for i in range (len(t)):
+        if i%2!=0 :
+            r.append (t[i])
+    return r
+
+q=smm(lstp(s))
+print(q)
+z=mult(lstimp(s))
+print (z)
+
+
+----
+
+
++*Out[12]:*+
+----10----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+
+my_list = ['vert', 'rouge', 'jaune', 'noir','blanc']
+my_list.sort()
+print(my_list)
+----
+
+
++*Out[7]:*+
+----
+['blanc', 'jaune', 'noir', 'rouge', 'vert']
+----
